@@ -1,3 +1,9 @@
+/* For overflow */
+
+body {
+    overflow: hidden;
+}
+
 /*
   ========================================
   Stars
@@ -11,3 +17,66 @@
 .clear-star {
   color: #bbb;
 }
+
+/*
+  ========================================
+  Corner Ribbon
+  ========================================
+*/
+
+.ribbon-box {
+  position: absolute;
+  top: 0;
+}
+
+.ribbon-box.left {
+  left: -45px;
+  top: 30px;
+  transform: rotate(-45deg);
+}
+
+.ribbon-box.right {
+  right: -45px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+.ribbon {
+  font-family: 'Gudea', sans-serif;
+  text-align: center;
+  color: white;
+
+  width: 200px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  pointer-events: all;
+}
+
+.ribbon.red {
+  background-color: red;
+}
+
+.ribbon.green {
+  background-color: #009B00;
+}
+
+.ribbon-content {
+  border-top: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+/*Write the CSS to add a ribbon, using the <div class="ribbon-box"> element in the practice template:
+
+    The ribbon-box element should support a "left" or "right" position, placing the ribbon in either the top-left or top-right corner of the page.
+    The ribbon element should support either a red or green color class, which provides the ribbon with a red or green background.
+    Add a thin stripe to the top and bottom of the ribbon, using color #eee.
+    Use Gudea for the font family.
+    Ensure that the browser does not add a horizontal scrollbar.
+    Ensure that elements beneath the ribbon's region, receive mouse events (e.g., any part of the tab menu covered by the ribbon, must receive hover as well as click events).
+*/
