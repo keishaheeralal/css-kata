@@ -75,7 +75,7 @@ body {
 
 .tab-menu {
   text-align: right;
-  margin-right: 85px;
+  margin-right: 65px;
 }
 
 .tab-menu li {
@@ -110,4 +110,27 @@ body {
 
 .tab-menu .active a {
   color: #555;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
+header {
+  background: #333;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #fff;
+
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+.icon {
+  color: #069459;
 }
