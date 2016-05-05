@@ -66,3 +66,48 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
+/*
+  ========================================
+  Generic Tab Menu
+  ========================================
+*/
+
+.tab-menu {
+  text-align: right;
+  margin-right: 85px;
+}
+
+.tab-menu li {
+  background: #008895;
+
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.tab-menu a {
+  text-decoration: none;
+  color: #fff;
+
+  display: block;
+  padding: 10px;
+}
+
+.tab-menu li:hover {
+  background: #ebaf3c;
+}
+
+.tab-menu li:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.tab-menu .active {
+  background: #fff;
+  font-weight: 600;
+
+  border: 1px solid #B3B3B3;
+}
+
+.tab-menu .active a {
+  color: #555;
+}
