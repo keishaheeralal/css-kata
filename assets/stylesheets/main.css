@@ -1,6 +1,8 @@
 /* For overflow */
 
 body {
+    font-size: smaller;
+    line-height: 18px;
     overflow: hidden;
 }
 
