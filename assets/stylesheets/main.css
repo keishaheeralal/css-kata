@@ -142,6 +142,8 @@ header {
 }
 
 .logo {
+  font-family: 'Happy Monkey', cursive;
+  font-weight: bold;
   font-size: 24px;
   color: #fff;
 
