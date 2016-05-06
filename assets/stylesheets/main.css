@@ -172,3 +172,17 @@ footer {
   width: 100%;
   padding: 15px 0 15px 10px;
 }
+
+/*
+  ========================================
+  Tab Content
+  ========================================
+*/
+
+.visible {
+  margin-left: 10px;
+}
+
+.hidden {
+  display: none;
+}

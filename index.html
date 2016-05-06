@@ -14,10 +14,10 @@
 
       <nav class="tab-menu main-menu">
         <ul>
-          <li class="active"><a href="#">Home</a></li><!--
-          --><li><a href="#">Box</a></li><!--
-          --><li><a href="#">Movies</a></li><!--
-        --><li><a href="#">About</a></li>
+          <li class="active"><a href="#home" data-id="home">Home</a></li><!--
+          --><li><a href="#box" data-id="box">Box</a></li><!--
+          --><li><a href="#movies" data-id="movies">Movies</a></li><!--
+        --><li><a href="#about" data-id="about">About</a></li>
         </ul>
       </nav>
     </header>
@@ -30,12 +30,16 @@
       </div>
     </div>
 
-    <p>Alert <a href="#">X</a></p>
+    <!-- Main Content -->
 
-    <section>
+    <!-- Home Tab -->
+
+    <section id="home" class="visible">
+
+      <p>Alert <a href="#">X</a></p>
 
       <p>*This will be replaced*</p>
-
+      
       <nav>
         <ul>
           <li><a href="#">Item1</a></li>
@@ -53,10 +57,6 @@
           <li><a href="#">ItemD</a></li>
         </ul>
       </nav>
-
-    </section>
-
-    <section>
 
       <h2>Lorem Ipsum Away</h2>
 
@@ -78,15 +78,19 @@
 
       <div>This is some text at the bottom of the home tab section, to ensure that the floats are cleared.</div>
 
-      <p>The content text and nested boxes are all vertically and horizontally centered.</p>
     </section>
 
-    <section>
+    <!-- Box Tab -->
+
+    <section id="box" class="hidden">
+      <p>The content text and nested boxes are all vertically and horizontally centered.</p>
       <p>CONTENT</p>
       <div>100px x 100px</div>
     </section>
 
-    <section>
+    <!-- Movies Tab -->
+
+    <section id="movies" class="hidden">
 
       <p>This text will not scroll, but the table will.</p>
 
@@ -174,11 +178,17 @@
 
     </section>
 
-    <p>A simple HTML page used to practice some CSS styling.</p>
+    <!-- About Tab -->
+
+    <section id="about" class="hidden">
+      <p>A simple HTML page used to practice some CSS styling.</p>
+    </section>
 
     <footer class="footer">
       <div>CSS Kata Footer</div>
     </footer>
+
+    <script src="assets/js/index.js"></script>
 
   </body>
 </html>
