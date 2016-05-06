@@ -32,6 +32,8 @@ body {
 .ribbon-box {
   position: absolute;
   top: 25px;
+
+  pointer-events: none; /* allow elements under the ribbon to be clicked */
 }
 
 .ribbon-box.left {
@@ -52,8 +54,6 @@ body {
   width: 155px;
   padding-top: 2px;
   padding-bottom: 2px;
-
-  pointer-events: all;
 }
 
 .ribbon.red {
