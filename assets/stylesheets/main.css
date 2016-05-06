@@ -1,9 +1,12 @@
 /* For overflow */
 
 body {
-    font-size: smaller;
-    line-height: 18px;
-    overflow: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: smaller;
+  line-height: 18px;
+  color: #333;
+
+  overflow: hidden;
 }
 
 /*
