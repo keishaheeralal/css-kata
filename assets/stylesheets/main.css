@@ -140,7 +140,7 @@ body {
 */
 
 .side-menu {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .side-menu li {
@@ -159,6 +159,17 @@ body {
 
   display: block;
   padding: 6px;
+}
+
+/*
+  ========================================
+  Sidebar
+  ========================================
+*/
+
+.sidebar {
+  width: 18%;
+  float:left;
 }
 
 /*
@@ -216,4 +227,53 @@ footer {
 
 .hidden {
   display: none;
+}
+
+/*
+  ========================================
+  Home Content
+  ========================================
+*/
+
+.home-content {
+  float: right;
+  width: 80%;
+}
+
+.home-content p {
+  margin-bottom: 10px;
+}
+
+.home-content p:last-child {
+  margin-bottom: none;
+}
+
+.home-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.tick {
+  color: #369968;
+  padding-right: 5px;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
