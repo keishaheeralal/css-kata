@@ -296,6 +296,31 @@ footer {
 
 /*
   ========================================
+  Custom Table
+  ========================================
+*/
+
+.custom-table {
+  margin-top: 10px;
+  width: 700px;
+}
+
+.custom-table tbody td:nth-child(3n) {
+  text-align: right;
+}
+
+.custom-table tbody td:nth-child(4n) {
+  text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .custom-table {
+    overflow: scroll;
+  }
+}
+
+/*
+  ========================================
   Clearfix
   ========================================
 */
