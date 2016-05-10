@@ -264,6 +264,38 @@ footer {
 
 /*
   ========================================
+  Generic Table
+  ========================================
+*/
+
+.simple-table {
+  border: 2px solid #ccc;
+}
+
+.simple-table tbody td {
+  border-left: 1px solid #ccc;
+}
+
+.simple-table thead {
+  font-weight: bold;
+  color: #fff;
+  background-color: #656565;
+}
+
+.simple-table thead th:nth-child(n+1) {
+  border-left: 1px solid #fff;
+}
+
+.simple-table tbody tr:nth-child(even) {
+  background: #efefef;
+}
+
+.simple-table th, td {
+  padding: 5px;
+}
+
+/*
+  ========================================
   Clearfix
   ========================================
 */
