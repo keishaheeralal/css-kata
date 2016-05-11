@@ -337,3 +337,81 @@ footer {
   clear: both;
   *zoom: 1;
 }
+
+/*
+  ========================================
+  Modal Dialog
+  ========================================
+*/
+
+.modal-background {
+  background: RGBa(100, 100, 100, 0.5);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+}
+
+.modal-dialog {
+  width: 15%;
+  border: 1px solid #999;
+  border-radius: 14px 0 12px 12px;
+  position: fixed;
+  margin: 10% 40%;
+  z-index: 100;
+
+  background: #bbb;
+  background: -webkit-linear-gradient(#bbb, #fff);
+  background:    -moz-linear-gradient(#bbb, #fff);
+  background:         linear-gradient(to top, #bbb, #fff);
+  box-shadow: 12px 12px 16px #444;
+}
+
+.modal-dialog h3 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  background-color: #555;
+  
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top-left-radius: 10px;
+}
+
+.modal-dialog p {
+  padding: 20px 0 70px 10px;
+}
+
+.modal-dialog a {
+  font-size: 16px;
+  color: #eee;
+  background-color: #777;
+  text-decoration: none;
+
+  float: right;
+  display: inline-block;
+  padding: 2px 6px;
+  margin-top: -15px;
+  margin-right: -13px;
+  border: 2px solid #ccc;
+  border-radius: 13px;
+  box-shadow: 6px 6px 8px #444;
+}
+
+.modal-dialog a:hover {
+  color: #777;
+  background-color: #eee;
+}
+
+.alert-logo {
+  color: #aaa;
+  padding-right: 5px;
+  padding-left: 8px;
+}
+
+.close {
+  display: none;
+}
